@@ -1,0 +1,26 @@
+# ---- Core data / ML ----
+numpy==1.26.4
+pandas==2.1.4
+scikit-learn==1.4.2
+xgboost==2.0.3
+optuna==3.6.1
+imbalanced-learn==0.12.3
+category_encoders==2.6.3
+pyarrow==15.0.2
+SQLAlchemy==1.4.52
+PyMySQL==1.1.0
+redis==5.0.4
+
+# ---- Tracking / monitoring ----
+mlflow==2.16.2
+evidently==0.4.33
+great_expectations==0.15.50
+seaborn==0.13.2
+matplotlib==3.8.4
+
+# ---- API / Dashboard ----
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.1
+streamlit==1.35.0
+requests==2.31.0
